@@ -1,0 +1,70 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #6328A7;
+    color: orange;
+    height: 100vh;
+    /* Impede o conteudo filho de sair do conteudo pai  */
+    box-sizing: border-box;
+}
+
+.principal{
+    margin: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo__principal{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.conteudo__principal__titulo{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.conteudo__principal__paragrafo{
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.conteudo__links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo__links__botao{
+    background-color: orange;
+    width: 280px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 24px;
+    padding-top: 21.5px 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600px;
+}
+
+.conteudo__links__botao__texto{
+    color: #6328A7;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.img__html{
+    margin-top: 50px;
+}
